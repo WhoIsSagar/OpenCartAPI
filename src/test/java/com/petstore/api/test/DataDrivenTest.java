@@ -1,6 +1,9 @@
 package com.petstore.api.test;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.petstore.api.endpoints.UserEndPoints;
 import com.petstore.api.payload.User;
