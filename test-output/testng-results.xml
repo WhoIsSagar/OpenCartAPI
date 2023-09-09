@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-09T02:56:06 EDT" name="Default suite" finished-at="2023-09-09T02:56:11 EDT" duration-ms="4710">
+    <groups>
+    </groups>
+    <test started-at="2023-09-09T02:56:06 EDT" name="Default test" finished-at="2023-09-09T02:56:11 EDT" duration-ms="4710">
+      <class name="com.petstore.api.test.DataDrivenTest">
+        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:07 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T02:56:09 EDT" duration-ms="2565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gomni.don]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gomni]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Don]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gomnidon123@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gomni123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[67487.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:09 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T02:56:09 EDT" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1321.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[juggu.ghumna]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[juggu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghumman]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[juggughuman123@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[juggu123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2132412.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:09 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T02:56:09 EDT" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21312.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepan.singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deepan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[singh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[deepansingh1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[deepansingh123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[23423.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gomni.don]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[juggu.ghumna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepan.singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gomni.don]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[juggu.ghumna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:11 EDT" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepan.singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- com.petstore.api.test.DataDrivenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
