@@ -12,6 +12,8 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
+import java.io.IOException;
+
 public class DataDrivenTest {
 
 	public static User user;
@@ -21,7 +23,7 @@ public class DataDrivenTest {
 	public static UserEndPoints endpoint;
 	
 	@Test(priority=1, dataProvider = "fetchAllData", dataProviderClass = FetchExcelData.class)
-	public void postRequest(double id, String username, String firstName, String lastName, String email, String password, double phone) {
+	public void postRequest(double id, String username, String firstName, String lastName, String email, String password, double phone) throws IOException {
 		
 		this.phone = Double.toString(phone);
 		this.id = (int)id;
@@ -41,7 +43,7 @@ public class DataDrivenTest {
 	}
 	
 	@Test(priority = 2, dataProvider = "fetchUserName", dataProviderClass = FetchExcelData.class)
-	public void testGetUser(String userName) {
+	public void testGetUser(String userName) throws IOException {
 		System.out.println(userName);
 		res = UserEndPoints.getUser(userName);
 		res.then().log().all();
@@ -49,7 +51,7 @@ public class DataDrivenTest {
 	
 	
 	@Test(priority = 3, dataProvider = "fetchUserName", dataProviderClass = FetchExcelData.class)
-	public void testDeleteUser(String userName) {
+	public void testDeleteUser(String userName) throws IOException {
 		System.out.println(userName);
 		res = UserEndPoints.deletUser(userName);
 		res.then().log().all();

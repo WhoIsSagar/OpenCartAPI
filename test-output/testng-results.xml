@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-09T02:56:06 EDT" name="Default suite" finished-at="2023-09-09T02:56:11 EDT" duration-ms="4710">
+  <suite started-at="2023-09-09T03:52:53 EDT" name="Default suite" finished-at="2023-09-09T03:52:58 EDT" duration-ms="4653">
     <groups>
     </groups>
-    <test started-at="2023-09-09T02:56:06 EDT" name="Default test" finished-at="2023-09-09T02:56:11 EDT" duration-ms="4710">
+    <test started-at="2023-09-09T03:52:53 EDT" name="Default test" finished-at="2023-09-09T03:52:58 EDT" duration-ms="4653">
       <class name="com.petstore.api.test.DataDrivenTest">
-        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:07 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T02:56:09 EDT" duration-ms="2565" status="PASS">
+        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:54 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T03:52:56 EDT" duration-ms="2173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequest -->
-        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:09 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T02:56:09 EDT" duration-ms="173" status="PASS">
+        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:56 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T03:52:56 EDT" duration-ms="167" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequest -->
-        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:09 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T02:56:09 EDT" duration-ms="175" status="PASS">
+        <test-method signature="postRequest(double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double)[pri:1, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:56 EDT" name="postRequest" data-provider="fetchAllData" finished-at="2023-09-09T03:52:57 EDT" duration-ms="155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequest -->
-        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="189" status="PASS">
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:57 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T03:52:57 EDT" duration-ms="188" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUser -->
-        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="162" status="PASS">
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:57 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T03:52:57 EDT" duration-ms="159" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUser -->
-        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="162" status="PASS">
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:57 EDT" name="testGetUser" data-provider="fetchUserName" finished-at="2023-09-09T03:52:57 EDT" duration-ms="167" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUser -->
-        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="144" status="PASS">
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:57 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T03:52:57 EDT" duration-ms="167" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,7 +174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->
-        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:10 EDT" duration-ms="150" status="PASS">
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:57 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T03:52:58 EDT" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -185,7 +185,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->
-        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T02:56:10 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T02:56:11 EDT" duration-ms="157" status="PASS">
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:com.petstore.api.test.DataDrivenTest@5b03b9fe]" started-at="2023-09-09T03:52:58 EDT" name="testDeleteUser" data-provider="fetchUserName" finished-at="2023-09-09T03:52:58 EDT" duration-ms="151" status="PASS">
           <params>
             <param index="0">
               <value>

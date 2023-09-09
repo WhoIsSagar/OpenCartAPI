@@ -11,6 +11,8 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
+import java.io.IOException;
+
 
 public class UserTest {
 //post user, get user, update user, delete user
@@ -20,7 +22,7 @@ public class UserTest {
 	public static SoftAssert softassert;
 		
 	@Test(priority = 1)
-	public void testPostUser() {
+	public void testPostUser() throws IOException {
 		softassert = new SoftAssert();
 		faker = new Faker();
 		user = new User();
@@ -41,14 +43,14 @@ public class UserTest {
 	
 	
 	@Test(priority = 2)
-	public void testGetUser() {
+	public void testGetUser() throws IOException {
 		
 		 res = UserEndPoints.getUser(user.getUsername());
 		res.then().log().all();
 	}
 	
 	@Test(priority = 3)
-	public void testPutUser() {
+	public void testPutUser() throws IOException {
 		Faker faker1 = new Faker();
 		user.setFirstName(faker1.name().firstName());
 		user.setLastName(faker1.name().lastName());
@@ -59,20 +61,20 @@ public class UserTest {
 	}
 	
 	@Test(priority = 4)
-	public void testGetUserAfterUpdate() {
+	public void testGetUserAfterUpdate() throws IOException {
 		
 		 res = UserEndPoints.getUser(user.getUsername());
 		res.then().log().all();
 	}
 	
 	@Test(priority = 5)
-	public void testDeleteUser() {
+	public void testDeleteUser() throws IOException {
 		res = UserEndPoints.deletUser(user.getUsername());
 		res.then().log().all();
 	}
 	
 	@Test(priority = 6)
-	public void testGetUserAfterDelete() {
+	public void testGetUserAfterDelete() throws IOException {
 		
 		 res = UserEndPoints.getUser(user.getUsername());
 		res.then().statusCode(404);
